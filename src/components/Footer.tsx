@@ -55,6 +55,8 @@ const Footer = () => {
                     sx={{ textTransform: "none", fontSize: "1.2rem" }}
                     variant="contained"
                     endIcon={<SendIcon />}
+                    href="/assets/cv.dpf"
+                    target="_blank"
                   >
                     Resume
                   </Button>

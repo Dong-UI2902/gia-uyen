@@ -1,4 +1,9 @@
 .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background-color: #ffff;
+
   .app-bar {
     box-shadow: none;
   }
@@ -98,7 +103,7 @@
         margin-top: 40px;
       }
 
-      button {
+      a {
         position: absolute;
         right: 30px;
         bottom: 30px;
@@ -131,8 +136,10 @@
 .profile {
   margin-top: 60px;
   padding-top: 20px;
-  position: relative;
+  // position: relative;
   height: 1850px;
+  overflow: hidden;
+  max-width: 100%;
 
   &-content {
     text-align: center;
@@ -150,6 +157,13 @@
 
   &-img {
     position: absolute;
+    cursor: pointer;
+
+    img {
+      display: block;
+      overflow-clip-margin: content-box;
+      overflow: clip;
+    }
   }
 
   .img {

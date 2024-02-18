@@ -43,7 +43,13 @@ const Header = () => {
             <br />
             Paris 75000 France
           </p>
-          <Button variant="contained">resume</Button>
+          <Button
+            href="https://drive.google.com/file/d/1thl1DMVWo5WzFu6NscBZVTllR4-mLAmc/view?usp=sharing"
+            target="_blank"
+            variant="contained"
+          >
+            resume
+          </Button>
         </div>
         <div className="quote">
           <div className="quote-tag">

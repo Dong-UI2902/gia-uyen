@@ -55,7 +55,7 @@ const Footer = () => {
                     sx={{ textTransform: "none", fontSize: "1.2rem" }}
                     variant="contained"
                     endIcon={<SendIcon />}
-                    href="/assets/cv.dpf"
+                    href="https://drive.google.com/file/d/1thl1DMVWo5WzFu6NscBZVTllR4-mLAmc/view?usp=sharing"
                     target="_blank"
                   >
                     Resume

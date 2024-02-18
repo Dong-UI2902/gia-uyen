@@ -29,7 +29,7 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <AppBar position="sticky" color="transparent" className="app-bar">
+      <AppBar position="static" color="transparent" className="app-bar">
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             <Box

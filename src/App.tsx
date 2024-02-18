@@ -8,8 +8,8 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div>
-      <Container maxWidth="lg" className="layout shadow-blur">
-        <Navbar />
+      <Navbar />
+      <Container maxWidth="lg">
         <Home />
       </Container>
       <Footer />

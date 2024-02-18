@@ -19,3 +19,7 @@ img {
 p, div {
   color: rgb(14, 63, 130);
 }
+
+html {
+  scroll-behavior: smooth;
+}

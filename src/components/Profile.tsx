@@ -23,8 +23,8 @@ const Profile = () => {
 
   return (
     <div>
-      <div className="profile">
-        <div
+      <section className="profile" id="profile">
+        {/* <div
           onMouseDown={add}
           onMouseUp={remove}
           style={{
@@ -34,7 +34,7 @@ const Profile = () => {
             position: "absolute",
             zIndex: "999",
           }}
-        ></div>
+        ></div> */}
 
         <div style={{ position: "relative" }}>
           <div className="profile-content">
@@ -180,7 +180,7 @@ const Profile = () => {
             className="profile-img img-21"
           />
         </div>
-      </div>
+      </section>
     </div>
   );
 };

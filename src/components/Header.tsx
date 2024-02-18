@@ -3,7 +3,7 @@ import { Button } from "@mui/material";
 
 const Header = () => {
   return (
-    <div className="header">
+    <section className="header" id="home">
       <div className="header-images">
         <img src="/assets/images/header-1.png" />
         <img src="/assets/images/header-2.png" />
@@ -91,7 +91,7 @@ const Header = () => {
           <div className="quote-3">!!</div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

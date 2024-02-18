@@ -78,12 +78,14 @@ const Navbar = () => {
                 flexGrow: 1,
                 display: { xs: "none", md: "flex", justifyContent: "center" },
               }}
+              className={"nav-menu"}
             >
               {pages.map((page) => (
                 <Button
                   key={page}
                   onClick={handleCloseNavMenu}
                   className={`menu-button ${page === "Home" && "active"}`}
+                  href={`/#${page.toLowerCase()}`}
                 >
                   {page}
                 </Button>

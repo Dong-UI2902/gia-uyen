@@ -8,7 +8,7 @@ import SendIcon from "@mui/icons-material/Send";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <section className="footer" id="contact">
       <Container sx={{ maxWidth: "1024px!important" }}>
         <div className="contact">
           <Grid container spacing={8}>
@@ -66,7 +66,7 @@ const Footer = () => {
           </Grid>
         </div>
       </Container>
-    </div>
+    </section>
   );
 };
 

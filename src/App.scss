@@ -13,11 +13,14 @@
     color: rgb(14, 63, 130);
     display: block;
     margin: 20px 20px;
-    font-size: 20px;
+    font-size: 12px;
     font-weight: 600;
     padding-left: 40px;
     padding-right: 40px;
-    border-radius: 26px;
+
+    &:hover {
+      background-color: #e7e9eb !important;
+    }
   }
 
   .active {
@@ -74,10 +77,15 @@
       padding: 30px;
       height: 230px;
       width: 318px;
-      font-size: 17px;
+      font-size: 14px;
       font-weight: 700;
-      background-color: white;
+      background-color: #fffefa;
       position: relative;
+      display: flex;
+
+      &:nth-child(2) {
+        align-items: end;
+      }
 
       &-tag {
         width: 150px;
@@ -361,61 +369,53 @@
   }
 }
 
-.footer {
+.contact {
   padding-top: 12rem;
   padding-bottom: 12rem;
 
-  .contact {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-      0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    border-radius: 0.75rem;
+  &-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 5rem !important;
+  }
+
+  &-content__title {
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(115, 115, 115);
+    font-size: 18px;
+  }
+
+  &-content__info {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  &-title,
+  &-content__info,
+  .click {
+    color: black !important;
+  }
+
+  &-content > div {
+    margin: 30px auto;
+  }
+
+  .click {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 3rem;
+  }
+
+  &-button {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 
-    &-image {
-      border-top-left-radius: 0.75rem;
-      border-bottom-left-radius: 0.75rem;
-      height: 100%;
-    }
-
-    &-content {
-      padding-top: 3rem;
-      display: grid;
-      gap: 17px;
-
-      &__title {
-        font-weight: 500;
-        font-size: 1rem;
-        margin-top: 3rem;
-      }
-
-      .name {
-        font-size: 2.25rem;
-        line-height: 1.3;
-        font-weight: 600;
-      }
-
-      .info {
-        display: flex;
-        margin-top: 0.5rem;
-      }
-
-      svg {
-        padding-right: 0.75rem !important;
-      }
-
-      &__footer {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        .footer {
-          &-country {
-            font-weight: 600;
-            font-size: 1.2rem;
-          }
-        }
-      }
+    a {
+      border-radius: unset !important;
+      background-color: rgb(14, 63, 130) !important;
+      text-transform: none;
+      font-size: 15px;
     }
   }
 }

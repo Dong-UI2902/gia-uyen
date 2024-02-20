@@ -79,14 +79,9 @@ const Header = () => {
           </div>
           <div className="quote-2">!</div>
           <p>
-            Creative is the weaponry
+            Creative is not competition.
             <br />
-            Wield as a fire gun
-          </p>
-          <p>
-            The ideas can be weighing scale
-            <br />
-            and distributed to the best area
+            Masterpeice = Master Peace
           </p>
           <div className="quote-3">!!</div>
         </div>

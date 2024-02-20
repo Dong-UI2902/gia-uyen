@@ -48,8 +48,8 @@ function App() {
       <Navbar />
       <Container maxWidth="lg">
         <Home />
+        <Footer />
       </Container>
-      <Footer />
     </div>
   );
 }

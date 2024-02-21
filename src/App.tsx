@@ -3,7 +3,8 @@ import "./App.scss";
 import Home from "./pages/Home";
 import { Container } from "@mui/material";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Marketing from "./pages/Marketing";
 
 function App() {
   const [sections, setSections] = useState<any>();
@@ -46,9 +47,13 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Container maxWidth="lg">
-        <Home />
-        <Footer />
+      <Container maxWidth="lg" sx={{ padding: "0!important" }}>
+        <BrowserRouter>
+          <Routes>
+            <Route index element={<Home />} />
+            <Route path="/project/marketing" element={<Marketing />} />
+          </Routes>
+        </BrowserRouter>
       </Container>
     </div>
   );

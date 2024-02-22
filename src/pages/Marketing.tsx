@@ -17,7 +17,7 @@ const Marketing = () => {
   return (
     <div className="marketing">
       <div className="marketing-title">Marketing</div>
-      <Grid container spacing={2} marginTop={4}>
+      <Grid container spacing={2} marginTop={4} marginBottom={4}>
         <Grid item xs={3}>
           <Card>
             <CardActionArea>
@@ -27,21 +27,10 @@ const Marketing = () => {
                 image="/assets/images/project/marketing/1.png"
                 alt="green iguana"
               />
-              <CardContent>
-                <Typography
-                  gutterBottom
-                  variant="h6"
-                  component="div"
-                  textAlign="center"
-                >
-                  KHRISTMAS CAMPAIGN
-                </Typography>
-              </CardContent>
               <CardActions>
                 <Button
                   className="btn"
                   variant="contained"
-                  endIcon={<SendIcon />}
                   sx={{
                     textTransform: "none",
                     margin: "0 auto",
@@ -64,21 +53,10 @@ const Marketing = () => {
                 image="/assets/images/project/marketing/2.png"
                 alt="green iguana"
               />
-              <CardContent>
-                <Typography
-                  gutterBottom
-                  variant="h6"
-                  component="div"
-                  textAlign="center"
-                >
-                  SKIMS
-                </Typography>
-              </CardContent>
               <CardActions>
                 <Button
                   className="btn"
                   variant="contained"
-                  endIcon={<SendIcon />}
                   sx={{
                     textTransform: "none",
                     margin: "0 auto",
@@ -101,21 +79,10 @@ const Marketing = () => {
                 image="/assets/images/project/marketing/3.png"
                 alt="green iguana"
               />
-              <CardContent>
-                <Typography
-                  gutterBottom
-                  variant="h6"
-                  component="div"
-                  textAlign="center"
-                >
-                  A COLD WALL
-                </Typography>
-              </CardContent>
               <CardActions>
                 <Button
                   className="btn"
                   variant="contained"
-                  endIcon={<SendIcon />}
                   sx={{
                     textTransform: "none",
                     margin: "0 auto",
@@ -138,21 +105,10 @@ const Marketing = () => {
                 image="/assets/images/project/marketing/4.png"
                 alt="green iguana"
               />
-              <CardContent>
-                <Typography
-                  gutterBottom
-                  variant="h6"
-                  component="div"
-                  textAlign="center"
-                >
-                  LOEWE
-                </Typography>
-              </CardContent>
               <CardActions>
                 <Button
                   className="btn"
                   variant="contained"
-                  endIcon={<SendIcon />}
                   sx={{
                     textTransform: "none",
                     margin: "0 auto",

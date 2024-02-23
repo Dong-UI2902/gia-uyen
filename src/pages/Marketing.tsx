@@ -32,7 +32,6 @@ const Marketing = () => {
                   className="btn"
                   variant="contained"
                   sx={{
-                    textTransform: "none",
                     margin: "0 auto",
                   }}
                   target="_blank"
@@ -58,7 +57,6 @@ const Marketing = () => {
                   className="btn"
                   variant="contained"
                   sx={{
-                    textTransform: "none",
                     margin: "0 auto",
                   }}
                   target="_blank"
@@ -84,7 +82,6 @@ const Marketing = () => {
                   className="btn"
                   variant="contained"
                   sx={{
-                    textTransform: "none",
                     margin: "0 auto",
                   }}
                   target="_blank"
@@ -110,7 +107,6 @@ const Marketing = () => {
                   className="btn"
                   variant="contained"
                   sx={{
-                    textTransform: "none",
                     margin: "0 auto",
                   }}
                   target="_blank"

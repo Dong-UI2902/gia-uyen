@@ -39,26 +39,21 @@ const Profile = () => {
         <div style={{ position: "relative" }}>
           <div className="profile-content">
             <p>
-              An endless passion to transform ideas to be an artistic way - I
-              have nothing but a strong passion for creativity, especially the
-              fashion industry
+              I have a deep passion for transforming ideas into artistic
+              expressions, particularly within the fashion industry.
             </p>
             <p>
-              Not a good communicator, but creativity in images and ideas can
-              help you and I understand each other better.
+              While I may not excel at verbal communication, I find that my
+              creativity in visual imagery and conceptualization allows me to
+              convey my thoughts effectively.
             </p>
             <p>
-              With a strong foundation in design thinking and creative vision,
-              the images I put here hope to bring good energy and a positive
-              impact to you.
+              With a strong foundation in design thinking and a clear creative
+              vision, I aim to infuse positive energy and make a meaningful
+              impact through my work. Thank you for taking the time to explore
+              my passion
             </p>
-            <p>
-              Thank you for taking the time to look at my passion
-              <br />
-              And
-              <br />
-              Have a productive day!!!
-            </p>
+            <p>Have a wonderfully productive day!</p>
           </div>
           <div
             className="profile-img img-1"

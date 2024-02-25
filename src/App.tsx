@@ -3,10 +3,17 @@ import "./App.scss";
 import Home from "./pages/Home";
 import { Container } from "@mui/material";
 import Navbar from "./components/Navbar";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Marketing from "./pages/Marketing";
+import Editorial from "./pages/Editorial";
 
 function App() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   const [sections, setSections] = useState<any>();
   useEffect(() => {
     setSections(document.querySelectorAll<HTMLElement>("section[id]"));
@@ -48,12 +55,11 @@ function App() {
     <div>
       <Navbar />
       <Container maxWidth="lg" sx={{ padding: "0!important" }}>
-        <BrowserRouter>
-          <Routes>
-            <Route index element={<Home />} />
-            <Route path="/project/marketing" element={<Marketing />} />
-          </Routes>
-        </BrowserRouter>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="/project/marketing" element={<Marketing />} />
+          <Route path="/project/editorial" element={<Editorial />} />
+        </Routes>
       </Container>
     </div>
   );

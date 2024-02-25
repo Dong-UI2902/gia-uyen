@@ -75,8 +75,8 @@ const images = [
   },
   {
     url: "/assets/images/project/creative.JPG",
-    title: "Creative",
-    href: "/project/creative",
+    title: "Editorial",
+    href: "/project/editorial",
   },
   {
     url: "/assets/images/project/virtual.jpg",

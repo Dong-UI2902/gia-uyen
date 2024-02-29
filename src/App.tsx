@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Marketing from "./pages/Marketing";
 import Editorial from "./pages/Editorial";
+import Virtual from "./pages/Virtual";
 
 function App() {
   const { pathname } = useLocation();
@@ -59,6 +60,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/project/marketing" element={<Marketing />} />
           <Route path="/project/editorial" element={<Editorial />} />
+          <Route path="/project/virtual" element={<Virtual />} />
         </Routes>
       </Container>
     </div>

@@ -10,8 +10,24 @@ const Footer = () => {
             <div className="contact-title">GIA UYEN LUU</div>
 
             <div className="contact-content__title">GENERAL INQUIRIES</div>
-            <div className="contact-content__info">Gia.cre14@gmail.com</div>
-            <div className="contact-content__info">+33 6 49 47 84 79 </div>
+            <div>
+              <a
+                href="mailto:Gia.cre14@gmail.com"
+                rel="noreferrer"
+                className="contact-content__info contact-link"
+                target="_top"
+              >
+                Gia.cre14@gmail.com
+              </a>
+            </div>
+            <div>
+              <a
+                href="tel:+33 6 49 47 84 79"
+                className="contact-content__info contact-link"
+              >
+                +33 6 49 47 84 79{" "}
+              </a>
+            </div>
             <div className="contact-content__info">Paris | France </div>
           </div>
         </Grid>
@@ -22,8 +38,26 @@ const Footer = () => {
             </div>
 
             <div className="contact-content__title">FOLLOW ME</div>
-            <div className="contact-content__info">ig@gia.ism</div>
-            <div className="contact-content__info">linkedin.com/in/lguyen</div>
+            <div>
+              <a
+                href="https://www.instagram.com/gia.ism"
+                target="_blank"
+                className="contact-content__info contact-link"
+                rel="noreferrer"
+              >
+                ig@gia.ism
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.linkedin.com/in/lguyen"
+                className="contact-content__info contact-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                linkedin.com/in/lguyen
+              </a>
+            </div>
           </div>
         </Grid>
         <Grid item xs={4}>

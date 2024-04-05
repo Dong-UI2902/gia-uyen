@@ -470,3 +470,41 @@
   padding-left: 24px;
   padding-right: 24px;
 }
+
+.mobile {
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  &-view {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  &-view > div {
+    margin-top: auto;
+  }
+
+  &-footer {
+    margin-top: auto;
+  }
+
+  h1,
+  .contact-button {
+    text-transform: uppercase;
+  }
+
+  * {
+    text-align: center;
+  }
+
+  .contact-button {
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  p {
+    font-size: 15px;
+    font-weight: 700;
+  }
+}

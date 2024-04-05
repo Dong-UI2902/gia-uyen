@@ -118,6 +118,31 @@ const Marketing = () => {
             </CardActionArea>
           </Card>
         </Grid>
+        <Grid item xs={3}>
+          <Card>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                width="100%"
+                image="/assets/images/project/marketing/5.png"
+                alt="green iguana"
+              />
+              <CardActions>
+                <Button
+                  className="btn"
+                  variant="contained"
+                  sx={{
+                    margin: "0 auto",
+                  }}
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1M-md_cLbTntbV7GWtonvVyliWR_R7psh/view?usp=drive_link"
+                >
+                  See More
+                </Button>
+              </CardActions>
+            </CardActionArea>
+          </Card>
+        </Grid>
       </Grid>
     </div>
   );

@@ -34,21 +34,22 @@ const Profile = () => {
         <div style={{ position: "relative" }}>
           <div className="profile-content">
             <p>
-              I have a deep passion for transforming ideas into artistic
-              expressions, particularly within the fashion industry.
+              In the dynamic world of Fashion Visual, my fervent dedication lies
+              in bringing conceptual visions to life, particularly within the
+              vibrant domain of fashion.
             </p>
             <p>
-              While I may not excel at verbal communication, I find that my
-              creativity in visual imagery and conceptualization allows me to
-              convey my thoughts effectively.
+              While verbal expression may not be my primary strength, I&apos;ve
+              harnessed the power of visual storytelling and conceptualization
+              to eloquently convey my ideas.
             </p>
             <p>
-              With a strong foundation in design thinking and a clear creative
-              vision, I aim to infuse positive energy and make a meaningful
-              impact through my work. Thank you for taking the time to explore
-              my passion
+              With a solid grasp of design fundamentals and a clear creative
+              direction, my goal is to infuse my work with optimism and provoke
+              a profound impact.
             </p>
-            <p>Have a wonderfully productive day!</p>
+            <p>Thank you for exploring my passion.</p>
+            <p>Here&apos;s to a day filled with boundless productivity!</p>
           </div>
           <Draggable onStart={() => changeIndex("img-1")}>
             <div className="profile-img img-1">

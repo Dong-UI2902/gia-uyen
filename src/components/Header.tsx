@@ -81,7 +81,7 @@ const Header = () => {
           <p>
             Creative is not competition.
             <br />
-            Masterpeice = Master Peace
+            Masterpiece = Master Peace
           </p>
           <div className="quote-3">!!</div>
         </div>

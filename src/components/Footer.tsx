@@ -1,11 +1,12 @@
 import React from "react";
 import { Button, Grid } from "@mui/material";
+import { isMobile } from "../helper/helper";
 
 const Footer = () => {
   return (
     <section className="contact" id="contact">
       <Grid container spacing={2}>
-        <Grid item xs={4}>
+        <Grid item md={4} xs={12}>
           <div className="contact-content">
             <div className="contact-title">GIA UYEN LUU</div>
 
@@ -31,11 +32,13 @@ const Footer = () => {
             <div className="contact-content__info">Paris | France </div>
           </div>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item md={4} xs={6}>
           <div className="contact-content">
-            <div className="contact-title" style={{ opacity: 0 }}>
-              GIA UYEN LUU
-            </div>
+            {!isMobile() && (
+              <div className="contact-title" style={{ opacity: 0 }}>
+                GIA UYEN LUU
+              </div>
+            )}
 
             <div className="contact-content__title">FOLLOW ME</div>
             <div>
@@ -60,7 +63,7 @@ const Footer = () => {
             </div>
           </div>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} md={4}>
           <img src="/assets/images/contact.jpg" alt="" />
         </Grid>
       </Grid>

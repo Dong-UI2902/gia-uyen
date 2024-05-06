@@ -59,19 +59,10 @@ function App() {
       <Navbar />
       <Container maxWidth="lg" sx={{ padding: "0!important" }}>
         <Routes>
-          <Route index element={isMobile() ? <MobileView /> : <Home />} />
-          <Route
-            path="/project/marketing"
-            element={isMobile() ? <MobileView /> : <Marketing />}
-          />
-          <Route
-            path="/project/editorial"
-            element={isMobile() ? <MobileView /> : <Editorial />}
-          />
-          <Route
-            path="/project/virtual"
-            element={isMobile() ? <MobileView /> : <Virtual />}
-          />
+          <Route index element={<Home />} />
+          <Route path="/project/marketing" element={<Marketing />} />
+          <Route path="/project/editorial" element={<Editorial />} />
+          <Route path="/project/virtual" element={<Virtual />} />
         </Routes>
       </Container>
     </div>

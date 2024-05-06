@@ -35,7 +35,12 @@ const Navbar = () => {
             <Box
               sx={{
                 flexGrow: 1,
-                display: { xs: "flex", md: "none", justifyItems: "center" },
+                display: {
+                  xs: "flex",
+                  md: "none",
+                  justifyItems: "center",
+                  alignItems: "center",
+                },
               }}
             >
               <IconButton
@@ -48,6 +53,21 @@ const Navbar = () => {
               >
                 <MenuIcon />
               </IconButton>
+              <Typography
+                variant="h6"
+                noWrap
+                component="div"
+                sx={{
+                  flexGrow: 1,
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  textAlign: "center",
+                  display: { xs: "block", sm: "none" },
+                  fontWeight: "700",
+                }}
+              >
+                GIA UYEN LUU
+              </Typography>
               <Menu
                 id="menu-appbar"
                 anchorEl={anchorElNav}

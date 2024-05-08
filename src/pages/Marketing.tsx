@@ -40,8 +40,8 @@ const Item = [
     url: "https://drive.google.com/file/d/1B-DP1IfgCeAY1LFBeJskfzQpmdx1zx3q/view?usp=drive_link",
   },
   {
-    name: "PRINCIPLE OF MARKETING",
-    tag: "ACW* | RTW",
+    name: "LEATHER & ACCESSORIES",
+    tag: " LOEWE | CASA",
     img: "/assets/images/project/marketing/4.png",
     url: "https://drive.google.com/file/d/1cQuFIXCdRRVXu69gEyATxRkGloeOZ6GE/view?usp=drive_link",
   },

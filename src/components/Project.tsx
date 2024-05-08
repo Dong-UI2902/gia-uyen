@@ -47,6 +47,9 @@ const Image = styled("span")(({ theme }) => ({
   bottom: 0,
   display: "flex",
   alignItems: "center",
+  [theme.breakpoints.down("sm")]: {
+    alignItems: "end",
+  },
   justifyContent: "center",
   color: theme.palette.common.white,
 }));
@@ -94,12 +97,14 @@ const responsive = {
   tablet: {
     breakpoint: { max: 1024, min: 464 },
     items: 1,
-    slidesToSlide: 2, // optional, default to 1.
+    slidesToSlide: 1, // optional, default to 1.
+    partialVisibilityGutter: 30,
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
     items: 1,
     slidesToSlide: 1, // optional, default to 1.
+    partialVisibilityGutter: 130,
   },
 };
 
@@ -174,21 +179,33 @@ const Project = () => {
           </>
         ) : (
           <>
+            <Typography
+              component="div"
+              variant="subtitle1"
+              color="inherit"
+              sx={{
+                position: "relative",
+                marginLeft: "20px",
+                fontWeight: 700,
+                fontSize: "13px",
+                pb: 2,
+              }}
+            >
+              FEATURE
+            </Typography>
             <Carousel
               swipeable={true}
               draggable={true}
               showDots={true}
               responsive={responsive}
-              ssr={true} // means to render carousel on server-side.
               infinite={true}
-              autoPlay={true}
+              autoPlay={false}
               autoPlaySpeed={2000}
-              containerClass="carousel-container"
               removeArrowOnDeviceType={["tablet", "mobile"]}
-              dotListClass="custom-dot-list-style"
               className="slide"
               renderDotsOutside={true}
-              centerMode={true}
+              centerMode={false}
+              partialVisible={true}
             >
               {images.map((image) => (
                 <Link key={image.title} href={image.href}>
@@ -197,6 +214,7 @@ const Project = () => {
                     style={{
                       width: 160,
                       borderRadius: "10px",
+                      marginLeft: "20px",
                     }}
                   >
                     <ImageSrc
@@ -205,13 +223,13 @@ const Project = () => {
                         borderRadius: "10px",
                       }}
                     />
-                    <ImageBackdrop
+                    {/* <ImageBackdrop
                       className="MuiImageBackdrop-root"
                       style={{
                         borderRadius: "10px",
                       }}
-                    />
-                    <Image>
+                    /> */}
+                    {/* <Image>
                       <Typography
                         component="span"
                         variant="subtitle1"
@@ -225,6 +243,39 @@ const Project = () => {
                       >
                         {image.title}
                         <ImageMarked className="MuiImageMarked-root" />
+                      </Typography>
+                    </Image> */}
+                    <Image>
+                      <Typography
+                        component="span"
+                        variant="subtitle1"
+                        color="inherit"
+                        sx={{
+                          position: "relative",
+                          height: "15px",
+                          pt: 2,
+                          pb: (theme) => `calc(${theme.spacing(1)} + 6px)`,
+                          backgroundColor: "rgb(190, 190, 190)",
+                          width: "100%",
+                          opacity: 0.49,
+                        }}
+                      ></Typography>
+                      <Typography
+                        component="span"
+                        variant="subtitle1"
+                        color="inherit"
+                        sx={{
+                          position: "absolute",
+                          p: "4rem 0",
+                          pt: 2,
+                          pb: (theme) => `calc(${theme.spacing(1)} + 0px)`,
+                          width: "100%",
+                          textTransform: "uppercase",
+                          fontWeight: 700,
+                          textShadow: "1px 1px 2px black",
+                        }}
+                      >
+                        {image.title}
                       </Typography>
                     </Image>
                   </ImageButton>

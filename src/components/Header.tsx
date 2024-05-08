@@ -1,11 +1,18 @@
 import React from "react";
 import { Button } from "@mui/material";
+import { isMobile } from "../helper/helper";
 
 const Header = () => {
   return (
     <section className="header" id="home">
       <div className="header-images">
-        <img src="/assets/images/header-1.png" />
+        <img
+          src={`${
+            isMobile()
+              ? "/assets/images/mobile-header.jpg"
+              : "/assets/images/header-1.png"
+          }`}
+        />
         <img src="/assets/images/header-2.png" />
         <img src="/assets/images/header-3.png" />
       </div>

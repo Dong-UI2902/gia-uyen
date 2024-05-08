@@ -11,6 +11,8 @@ import {
 } from "@mui/material";
 import React from "react";
 import MenuIcon from "@mui/icons-material/Menu";
+import SearchIcon from "@mui/icons-material/Search";
+import { styled, alpha } from "@mui/material/styles";
 
 const pages = ["Home", "Project", "Profile", "Contact"];
 
@@ -68,6 +70,7 @@ const Navbar = () => {
               >
                 GIA UYEN LUU
               </Typography>
+              <SearchIcon sx={{ paddingRight: "30px", fontWeight: 700 }} />
               <Menu
                 id="menu-appbar"
                 anchorEl={anchorElNav}

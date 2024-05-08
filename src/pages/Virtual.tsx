@@ -6,8 +6,8 @@ const Virtual = () => {
   return (
     <div className="virtual">
       <div className="virtual-title">Virtual</div>
-      <Grid container spacing={4} mt={4}>
-        <Grid item xs={6}>
+      <Grid container spacing={4} mt={4} p={3}>
+        <Grid item xs={12} md={6}>
           <div className="virtual-video">
             <img src="/assets/images/project/virtual/1.png" alt="" />
             <a
@@ -17,8 +17,8 @@ const Virtual = () => {
               rel="noreferrer"
             >
               <svg
-                width="131"
-                height="131"
+                width="80"
+                height="80"
                 viewBox="0 0 131 131"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@ const Virtual = () => {
             </a>
           </div>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} md={6}>
           <div className="virtual-video">
             <img src="/assets/images/project/virtual/2.png" alt="" />
             <a
@@ -56,8 +56,8 @@ const Virtual = () => {
               rel="noreferrer"
             >
               <svg
-                width="131"
-                height="131"
+                width="80"
+                height="80"
                 viewBox="0 0 131 131"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"

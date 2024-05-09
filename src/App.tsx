@@ -3,12 +3,10 @@ import "./App.scss";
 import Home from "./pages/Home";
 import { Container } from "@mui/material";
 import Navbar from "./components/Navbar";
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Marketing from "./pages/Marketing";
 import Editorial from "./pages/Editorial";
 import Virtual from "./pages/Virtual";
-import { isMobile } from "./helper/helper";
-import MobileView from "./components/MobileView";
 
 function App() {
   const { pathname } = useLocation();

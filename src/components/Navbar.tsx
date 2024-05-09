@@ -12,7 +12,7 @@ import {
 import React from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
-import { styled, alpha } from "@mui/material/styles";
+import Link from "./Link";
 
 const pages = ["Home", "Project", "Profile", "Contact"];
 
@@ -91,7 +91,10 @@ const Navbar = () => {
               >
                 {pages.map((page) => (
                   <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center">{page}</Typography>
+                    <Link href={`/#${page.toLowerCase()}`}>
+                      <Typography textAlign="center">{page}</Typography>
+                    </Link>
+                    {/* <Typography textAlign="center">{page}</Typography> */}
                   </MenuItem>
                 ))}
               </Menu>

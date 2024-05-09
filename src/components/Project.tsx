@@ -185,7 +185,7 @@ const Project = () => {
               color="inherit"
               sx={{
                 position: "relative",
-                marginLeft: "20px",
+                marginLeft: "25px",
                 fontWeight: 700,
                 fontSize: "13px",
                 pb: 2,

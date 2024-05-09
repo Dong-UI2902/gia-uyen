@@ -546,10 +546,28 @@
 
   .project {
     height: 340px;
-    margin-top: 0rem;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
 
     .slide {
       height: auto;
+    }
+
+    .react-multi-carousel-dot {
+      button {
+        border-radius: unset !important;
+        width: 40px;
+        margin: 0;
+        border: unset;
+        height: 2px;
+        background-color: rgb(190, 190, 190);
+      }
+    }
+
+    .react-multi-carousel-dot--active {
+      button {
+        background-color: rgb(32, 25, 25);
+      }
     }
   }
 

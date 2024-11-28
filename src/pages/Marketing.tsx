@@ -37,7 +37,7 @@ const Item = [
     name: "PRINCIPLE OF MARKETING",
     tag: "ACW* | RTW",
     img: "/assets/images/project/marketing/3.png",
-    url: "https://drive.google.com/file/d/1B-DP1IfgCeAY1LFBeJskfzQpmdx1zx3q/view?usp=drive_link",
+    url: "https://drive.google.com/file/d/1B-DP1IfgCeAY1LFBeJskfzQpXSx1zx3q/view?usp=drive_link",
   },
   {
     name: "LEATHER & ACCESSORIES",

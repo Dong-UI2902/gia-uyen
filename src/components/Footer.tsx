@@ -56,12 +56,12 @@ const Footer = () => {
               <>
                 <div>
                   <a
-                    href="https://www.instagram.com/gia.ism"
+                    href="https://www.instagram.com/iiiuyen"
                     target="_blank"
                     className="contact-content__info contact-link"
                     rel="noreferrer"
                   >
-                    ig@gia.ism
+                    ig@iiiuyen
                   </a>
                 </div>
                 <div>
@@ -124,7 +124,7 @@ const Footer = () => {
                 </g>
               </svg>
               <Button
-                href="https://drive.google.com/file/d/1vp8tDvVbAEBO-wH0QMSnfYbMK4CWywHs/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1yDlvjJUCeiJIAYOQj2wKns-RYzpQoJBP/view?usp=drive_link"
                 variant="contained"
                 target="_blank"
               >

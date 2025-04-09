@@ -19,6 +19,56 @@ const Profile = () => {
   return (
     <div>
       <section className="profile" id="profile">
+        <div className="container">
+          <div className="list">
+            <div className="item">
+              <span className="item-txt">Move the image</span>
+              <span className="item-d">
+                <p className="item-dot dot-t"></p>
+              </span>
+              <span className="item-txt">Control the frame</span>
+              <span className="item-d">
+                <p className="item-dot dot-b"></p>
+              </span>
+              <span className="item-txt">Move the image</span>
+              <span className="item-d">
+                <p className="item-dot dot-g"></p>
+              </span>
+              <span className="item-txt">Control the frame</span>
+              <span className="item-d">
+                <p className="item-dot dot-y"></p>
+              </span>
+              <span className="item-txt">Move the image</span>
+              <span className="item-d">
+                <p className="item-dot dot-r"></p>
+              </span>
+            </div>
+          </div>
+          <div className="list">
+            <div className="item">
+              <span className="item-txt">Move the image</span>
+              <span className="item-d">
+                <p className="item-dot dot-t"></p>
+              </span>
+              <span className="item-txt">Control the frame</span>
+              <span className="item-d">
+                <p className="item-dot dot-b"></p>
+              </span>
+              <span className="item-txt">Move the image</span>
+              <span className="item-d">
+                <p className="item-dot dot-g"></p>
+              </span>
+              <span className="item-txt">Control the frame</span>
+              <span className="item-d">
+                <p className="item-dot dot-y"></p>
+              </span>
+              <span className="item-txt">Move the image</span>
+              <span className="item-d">
+                <p className="item-dot dot-r"></p>
+              </span>
+            </div>
+          </div>
+        </div>
         {/* <div
           onMouseDown={add}
           onMouseUp={remove}

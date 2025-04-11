@@ -24,19 +24,35 @@ const Profile = () => {
             <div className="item">
               <span className="item-txt">Move the image</span>
               <span className="item-d">
-                <p className="item-dot dot-t"></p>
+                <p className="item-dot dot-r"></p>
               </span>
               <span className="item-txt">Control the frame</span>
               <span className="item-d">
-                <p className="item-dot dot-b"></p>
+                <p className="item-dot dot-r"></p>
               </span>
               <span className="item-txt">Move the image</span>
               <span className="item-d">
-                <p className="item-dot dot-g"></p>
+                <p className="item-dot dot-r"></p>
               </span>
               <span className="item-txt">Control the frame</span>
               <span className="item-d">
-                <p className="item-dot dot-y"></p>
+                <p className="item-dot dot-r"></p>
+              </span>
+              <span className="item-txt">Move the image</span>
+              <span className="item-d">
+                <p className="item-dot dot-r"></p>
+              </span>
+              <span className="item-txt">Control the frame</span>
+              <span className="item-d">
+                <p className="item-dot dot-r"></p>
+              </span>
+              <span className="item-txt">Move the image</span>
+              <span className="item-d">
+                <p className="item-dot dot-r"></p>
+              </span>
+              <span className="item-txt">Control the frame</span>
+              <span className="item-d">
+                <p className="item-dot dot-r"></p>
               </span>
               <span className="item-txt">Move the image</span>
               <span className="item-d">
@@ -48,19 +64,35 @@ const Profile = () => {
             <div className="item">
               <span className="item-txt">Move the image</span>
               <span className="item-d">
-                <p className="item-dot dot-t"></p>
+                <p className="item-dot dot-r"></p>
               </span>
               <span className="item-txt">Control the frame</span>
               <span className="item-d">
-                <p className="item-dot dot-b"></p>
+                <p className="item-dot dot-r"></p>
               </span>
               <span className="item-txt">Move the image</span>
               <span className="item-d">
-                <p className="item-dot dot-g"></p>
+                <p className="item-dot dot-r"></p>
               </span>
               <span className="item-txt">Control the frame</span>
               <span className="item-d">
-                <p className="item-dot dot-y"></p>
+                <p className="item-dot dot-r"></p>
+              </span>
+              <span className="item-txt">Move the image</span>
+              <span className="item-d">
+                <p className="item-dot dot-r"></p>
+              </span>
+              <span className="item-txt">Control the frame</span>
+              <span className="item-d">
+                <p className="item-dot dot-r"></p>
+              </span>
+              <span className="item-txt">Move the image</span>
+              <span className="item-d">
+                <p className="item-dot dot-r"></p>
+              </span>
+              <span className="item-txt">Control the frame</span>
+              <span className="item-d">
+                <p className="item-dot dot-r"></p>
               </span>
               <span className="item-txt">Move the image</span>
               <span className="item-d">

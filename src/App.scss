@@ -199,12 +199,12 @@
   }
 
   .item-txt {
-    font-size: 20px;
+    font-size: 13px;
     line-height: 20px;
     font-style: normal;
     font-weight: normal;
     letter-spacing: 0.1em;
-    color: #1a1a1a;
+    color: #888579;
   }
 
   .item-d {
@@ -212,29 +212,17 @@
   }
 
   .item-dot {
-    max-width: 20px;
-    max-height: 20px;
-    margin: 0 20px;
-    padding: 5px;
+    max-width: 10px;
+    max-height: 10px;
+    margin: 0 10px;
+    padding: 2px;
     border-radius: 50%;
     display: inline-block;
-    transform: translateY(-1px);
+    transform: translateY(-2px);
   }
 
   .dot-r {
-    background-color: #f35c4a;
-  }
-  .dot-b {
-    background-color: #1188ff;
-  }
-  .dot-g {
-    background-color: #60f2d0;
-  }
-  .dot-y {
-    background-color: #ffdb6b;
-  }
-  .dot-t {
-    background-color: #bfe05e;
+    background-color: #888579;
   }
 
   @keyframes loop {

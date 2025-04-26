@@ -7,14 +7,15 @@ const Header = () => {
     <section className="header" id="home">
       <div className="header-images">
         <img
+          rel="prefetch"
           src={`${
             isMobile()
               ? "/assets/images/mobile-header.jpg"
               : "/assets/images/header-1.png"
           }`}
         />
-        <img src="/assets/images/header-2.png" />
-        <img src="/assets/images/header-3.png" />
+        <img rel="prefetch" src="/assets/images/header-2.png" />
+        <img rel="prefetch" src="/assets/images/header-3.png" />
       </div>
       <div className="header-content">
         <div className="quote">

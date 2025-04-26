@@ -45,16 +45,6 @@ const Navbar = () => {
                 },
               }}
             >
-              <IconButton
-                size="large"
-                aria-label="account of current user"
-                aria-controls="menu-appbar"
-                aria-haspopup="true"
-                onClick={handleOpenNavMenu}
-                color="inherit"
-              >
-                <MenuIcon />
-              </IconButton>
               <Typography
                 variant="h6"
                 noWrap
@@ -70,34 +60,6 @@ const Navbar = () => {
               >
                 GIA UYEN LUU
               </Typography>
-              <SearchIcon sx={{ paddingRight: "30px", fontWeight: 700 }} />
-              <Menu
-                id="menu-appbar"
-                anchorEl={anchorElNav}
-                anchorOrigin={{
-                  vertical: "bottom",
-                  horizontal: "left",
-                }}
-                keepMounted
-                transformOrigin={{
-                  vertical: "top",
-                  horizontal: "left",
-                }}
-                open={Boolean(anchorElNav)}
-                onClose={handleCloseNavMenu}
-                sx={{
-                  display: { xs: "block", md: "none" },
-                }}
-              >
-                {pages.map((page) => (
-                  <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Link href={`/#${page.toLowerCase()}`}>
-                      <Typography textAlign="center">{page}</Typography>
-                    </Link>
-                    {/* <Typography textAlign="center">{page}</Typography> */}
-                  </MenuItem>
-                ))}
-              </Menu>
             </Box>
             <Box
               sx={{

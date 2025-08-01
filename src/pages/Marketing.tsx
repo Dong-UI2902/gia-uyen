@@ -19,7 +19,7 @@ const Item = [
     name: "SOCIAL MEDIA MARKETING",
     tag: "STEVEN PASSARO",
     img: "/assets/images/project/marketing/6.png",
-    url: "https://drive.google.com/file/d/1JprA6JehpI3DpJDqy4UX8I8lSBPZRlqa/view?usp=drive_link",
+    url: "https://drive.google.com/file/d/1D1wfZsgBeoCSlgLcH6isK04Aet6hRBYO/view?usp=drive_link",
   },
   {
     name: "INTERNATIONAL BUSINESS",
